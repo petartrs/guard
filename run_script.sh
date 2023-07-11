@@ -9,7 +9,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 echo "source /opt/ros/noetic/setup.bash" >> /home/$USER/.bashrc
 echo "source ~/catkin_ws/devel/setup.bash" >> /home/$USER/.bashrc
 echo "source ~/catkin_ws/devel_isolated/setup.bash" >> /home/$USER/.bashrc
-sudo apt install curl
+sudo apt install curl -y
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 sudo apt update
 sudo apt install ros-noetic-desktop-full -y
