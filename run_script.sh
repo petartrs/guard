@@ -38,6 +38,4 @@ sudo cp -a guard/aruco-ros-pkgs/ $HOME/catkin_ws/src
 (cd $HOME/catkin_ws && catkin_make_isolated)
 echo "source ~/catkin_ws/devel_isolated/setup.bash" >> /home/$USER/.bashrc
 
-sudo reboot
-
 #Install FLIR Camera ROS Driver
