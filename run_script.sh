@@ -38,4 +38,6 @@ sudo apt install ros-noetic-camera-info-manager ros-noetic-diagnostic-updater ro
 (cd $HOME/catkin_ws && catkin_make_isolated)
 echo "source ~/catkin_ws/devel_isolated/setup.bash" >> /home/$USER/.bashrc
 
+sudo reboot
+
 #Install FLIR Camera ROS Driver
